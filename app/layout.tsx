@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.APP_URL || "https://securitytools.utilix.site"),
   title: "SecurityTools — Free Client-Side Cybersecurity Utilities",
   description:
     "Free, 100% client-side cybersecurity utilities: Password Strength Checker with real-world crack-time analysis, Random Password Generator, and Diceware Passphrase Generator. We never store or log passwords.",
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
       "Free, 100% client-side cybersecurity utilities: Password Strength Checker with crack-time analysis, Random Password Generator, and Passphrase Generator.",
     type: "website",
     locale: "en_US",
+    url: "https://securitytools.utilix.site",
     siteName: "SecurityTools"
   },
   twitter: {
