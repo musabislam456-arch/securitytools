@@ -1,0 +1,6 @@
+{
+  "name": "SecurityTools",
+  "description": "Free client-side cybersecurity utilities: Password Strength Checker with crack-time analysis, Random Password Generator, and Passphrase Generator. 100% private and runs entirely in your browser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
