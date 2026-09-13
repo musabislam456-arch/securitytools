@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     title: "SecurityTools — Zero-Knowledge Cybersecurity Utilities",
     description:
       "Evaluate password entropy, crack times, and generate cryptographically secure passwords locally in your browser."
+  },
+  verification: {
+    google: "I_SaNu0LrbiQSkKmCb7bm8LRBISuViD4KTJh0FHRo2s"
   }
 };
 
