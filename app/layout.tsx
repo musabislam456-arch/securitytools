@@ -25,14 +25,29 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://securitytools.utilix.site",
-    siteName: "SecurityTools"
+    siteName: "SecurityTools",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "SecurityTools — Zero-Knowledge Cybersecurity Utilities",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "SecurityTools — Zero-Knowledge Cybersecurity Utilities",
     description:
-      "Evaluate password entropy, crack times, and generate cryptographically secure passwords locally in your browser."
+      "Evaluate password entropy, crack times, and generate cryptographically secure passwords locally in your browser.",
+    images: ["/opengraph-image"],
   },
+  icons: {
+    icon: "/icon",
+    shortcut: "/icon",
+    apple: "/apple-icon",
+  },
+  manifest: "/manifest.webmanifest",
   verification: {
     google: "I_SaNu0LrbiQSkKmCb7bm8LRBISuViD4KTJh0FHRo2s"
   }
